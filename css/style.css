@@ -1,0 +1,27 @@
+:root {
+    --background: #f7fff4;
+    --primary: #7B8C73;
+}
+
+body {
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: var(--primary);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
