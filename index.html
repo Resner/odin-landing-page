@@ -7,13 +7,16 @@
         <title>Landing Page - The Odin Project</title>
     </head>
     <body>
-        <header>
+        <header id="home">
             <nav>
                 <h1><a href="#">pistachios.</a></h1>
                 <ul>
-                    <li><a href="#">Item 1</a></li>
-                    <li><a href="#">Item 2</a></li>
-                    <li><a href="#">Item 3</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#testimonial">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#">Login</a></li>
                 </ul>
             </nav>
             <div class="header-left">
@@ -24,7 +27,32 @@
                 <img src="./img/hero-image.png" alt="Package of Pistachios">
             </div>
         </header>
-        <main></main>
+        <main>
+            <div id="about"></div>
+            <div id="products">
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+            </div>
+            <figure id="testimonial">
+                <blockquote>
+                    This is an inspiring quote, or a testimonial from a
+                    customer. Maybe it's just filling up space, or maybe
+                    people will actually read it. Who knows? All I know
+                    is that it looks nice.
+                </blockquote>
+                <figcaption>
+                    - <cite class="author">Thor</cite>, <cite class="company">God of Thunder</cite>
+                </figcaption>
+            </figure>
+            <div id="contact">
+                <form>
+                    <input type="email">
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </main>
         <footer></footer>
     </body>
 </html>
